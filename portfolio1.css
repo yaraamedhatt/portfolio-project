@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: antiquewhite;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: blueviolet;
+}
+section
+{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    display:flex;
+    background: url(images/top-view-dark-stylish-workplace-with-smartphone-office-supplies_67155-2963.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main h2{
+    font-size: 1.4em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: 600;
+    color: rgb(0, 118, 222);
+
+}
+.main h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+.main-btn{
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    background-color:rgb(0, 118, 222);
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+.social-icons a{
+    color: rgb(255, 255, 255);
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.title{
+    color: rgb(0, 118, 222);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    font-weight: 800;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: rgb(0, 118, 222);
+    text-align: center;
+    font-size: 8em;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color:rgb(0, 118, 222);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.projects{
+    background-color: rgb(14, 13, 13);
+}
+.projects .content{
+    margin-top: 30px;
+
+}
+.project-card{
+    background-color: beige;
+    min-height: 14em;
+    border: 1px solid beige;
+    width:23em;
+    overflow:hidden;
+    border-radius: 10px;
+    margin:20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+.project-image img{
+width: 100%;
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size:0.8em;
+    color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top:10px
+}
+.more-details{
+    text-decoration: none;
+    color: rgb(0, 118, 222);
+}
+.more-details:hover{
+    color: rgb(57, 19, 92);
+}
+.contact .content{
+    margin-top: 30px;
+
+}
+
+
+.contact-card:hover{
+    transform: scale(1.1);
+}
+.contact-icon{
+    color: rgb(0, 118, 222);
+    text-align: center;
+    font-size: 4.5em;
+
+}
+.contact-info{
+    font-size:1em;
+    text-align: center;
+    
+
+}
+.contact-info p{
+    padding: 20px;
+    font-weight: 450;
+    
+}
+.footer{
+    background-color: rgb(48, 47, 47);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+}
+.footer-title{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: rgb(0, 118, 222);
+}
+.footer .social-icons a{
+    font-size: 2em;
+    padding: 0 12px 0 0;
+}
+@media (max-width:1023px){
+    header{
+        padding:5px 10px;
+    }
+   
+    .navigation a{
+         padding-left: 10px;
+         font-size: 0.6em;
+    }
+    section{
+        padding:30px 50px;
+    }
+   
+    .title{
+    font-size: 1.8em;
+}
+.main h2{
+    font-size: 1.1em;
+ 
+
+}
+.main h2 span{
+
+    margin-top: 5px;
+    font-size: 1.5em;
+  
+
+}
+.main h3{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    
+}
+.main-btn{
+ 
+    padding: 0.5em 1.1em;
+    border-radius: 10px;
+   
+}
+
+.title{
+    margin-bottom: 15px;
+    font-size: 1.1em;
+  
+}
+
+.card{
+  
+    padding: 15px;
+    margin: 10px;
+    width:10em
+ 
+}
+.icon{
+    
+    font-size: 4em;
+}
+.info h3{
+    font-size: 0.6em;
+
+}
+.project-card{
+    
+    width:10em;
+    margin:10px;
+    
+}
+.project-category{
+    font-size:0.4em;
+}
+.contact-icon{
+   
+    font-size: 2.2em;
+
+}
+.project-info{
+    padding: 0.5em;
+}
+
+.contact-info{
+    font-size:0.5em;
+    
+
+}
+.contact-info p{
+    padding: 10px;
+    
+    
+}
+.footer{
+    padding: 1em;
+
+}
+.footer-title{
+    font-size: 1.1em;
+    
+}
+.footer .social-icons a{
+    font-size: 1em;
+    padding: 0 6px 0 0;
+}
+}
